@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        /* background-color: gray; */
+        height: 50px;
+      }
+
+      .column1{
+        background-color: lightpink;
+        width: 200px;
+      }
+
+      .column2{
+        width: 300px;
+        background-color: lightblue;
+      }
+
+      .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .r2c1,
+      .r2c2{
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="column1">
+
+      </div>
+
+      <div class="column2">
+        <div class="row1">row1</div>
+        <div class="row2">
+          <div class="r2c1">
+            row2
+          </div>
+          <div class="r2c2">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

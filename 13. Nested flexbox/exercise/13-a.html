@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 50px;
+      }
+
+      .column1{
+        background-color: lightpink;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .item1{
+        background-color: black;
+        color: white;
+      }
+
+      .column2{
+        background-color: lightblue;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="column1">
+        <!-- light pink -->
+         <div class="item1">item1</div>
+      </div>
+      <div class="column2">
+        <!-- lightblue -->
+      </div>
+    </div>
+  </body>
+</html>

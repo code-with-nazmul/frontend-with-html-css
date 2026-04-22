@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial;
+      }
+
+      .outer{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+      }
+
+      .cat-pic{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .info{
+        margin-left: 10px;
+      }
+
+      .f-1,
+      .f-2{
+        display: inline-block;
+      }
+
+      .f-1{
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .f-2{
+        color: gray;
+      }
+
+      .c2r2{
+        margin-top: 4px;
+        margin-bottom: 6px;
+      }
+
+      .details{
+        line-height: 20px;
+      }
+
+      .c2r3{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(203, 201, 201);
+        height: 100px;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .left{
+        background-color: rgb(203, 201, 201);
+        width: 130px;
+      }
+
+      .right{
+        /* width: 1fr; */
+        padding-top: 10px;
+        padding-left: 12px;
+      }
+
+      .link{
+        color: gray;
+        padding-bottom: 8px;
+      }
+
+      .video-details{
+        line-height: 22px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="outer">
+      <div class="profile-pic">
+        <img class="cat-pic" src="./cat.jpg" alt="">
+      </div>
+      <div class="info">
+        <div class="c2r1">
+          <p class="f-1">supersimple.dev</p>
+          <p class="f-2">@SuperSimpleDev</p>
+        </div>
+        <div class="c2r2">
+          <p class="details">What is backend web development? A complete overview. New video is up!</p>
+        </div>
+        <div class="c2r3">
+          <!-- flex -->
+           <div class="left"></div>
+          <div class="right">
+              <p class="link">youtube.com</p>
+              <p class="video-details">
+                Backend web develompment - a complete overview (2021)
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
